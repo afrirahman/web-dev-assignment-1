@@ -1,0 +1,123 @@
+
+.fira-sans{
+    font-family: "Fira Sans", serif;
+    font-style: normal;
+  }
+.body{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+.hover:hover{
+    background-color:rgb(121, 209, 124) ;
+}
+/* Header part styles */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:24px 0 ;
+}
+.header-title{
+font-size: 32px;
+color: rgb(14, 14, 14);
+}
+.header-button{
+    height: 52px;
+    width: 116px;
+    border: 1px solid rgb(0, 106, 80);
+    border-radius: 8px;
+    font-size: 18px;
+    color:rgb(0, 106, 80) ;
+
+}
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 64px;
+    border-radius: 24px;
+    background-color: rgb(198, 228, 214);
+    height: 560px;
+    
+}
+.banner-content{
+padding: 80px 100px 80px 100px;
+gap: 24px;
+
+
+}
+.banner-title{
+    font-size: 24px;
+    font-weight: 500px;
+    color:rgba(14, 14, 14, 0.5) ;
+
+}
+.banner-subtitle{
+    font-size: 56px;
+    font-weight: 700px;
+    color:rgb(14, 14, 14) ; 
+}
+.banner-img{
+    height: 330px;
+    width: 475px;
+    
+}
+.banner-button{
+    font-size: 18px;
+    height: 56px;
+    width: 270px;
+    border: none;
+    color:rgb(255, 255, 255) ;
+    border-radius: 8px;
+    background-color: rgb(0, 106, 80);
+
+}
+/* Main part styles */
+.about-bd{
+    margin-top: 80px;
+}
+.section-title{
+    font-size: 40px;
+    color: rgb(14, 14, 14);
+}
+.section-description{
+    font-size: 16px;
+    color:rgba(14, 14, 14, 0.7) ;
+}
+.about-container{
+    display: flex;
+    gap: 24px;
+    justify-content: space-around;
+    
+    
+}
+.about-item-1{
+background-color: rgba(84, 144, 245, 0.2);
+border-radius: 16px;
+padding: 30px;
+}
+.about-item-2{
+background-color: rgb(198, 228, 214);
+border-radius: 16px;
+padding: 30px;
+}
+.about-item-3{
+background-color:rgb(247, 235, 207) ;
+border-radius: 16px;
+padding: 30px;
+}
+.item-title{
+    font-size: 20px;
+    color: rgba(14, 14, 14, 0.8);
+}
+.item-description{
+    font-size: 16px;
+    color:rgba(14, 14, 14, 0.7) ;
+}
+.about-item-button{
+    font-size: 16px;
+    height: 41px;
+    width: 122px;
+    border-radius:8px ;
+    border: none;
+}
